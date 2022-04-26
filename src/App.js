@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="cointainer">
-        <header className="App-header">Hello World</header>
+        <header className="App-header">Online Dictionary</header>
         <main>
           <Dictionary />
         </main>
