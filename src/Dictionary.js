@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyWord] = useState("");
+  let [keyWord, setKeyWord] = useState("");
 
   function handleResponse(response) {
     console.log(response.data[0]);
