@@ -3,6 +3,7 @@ import axios from "axios";
 
 import Results from "./Results.js";
 import "./Dictionary.css";
+import "./Media.css";
 
 export default function Dictionary(props) {
   let [keyWord, setKeyWord] = useState(props.defaultKeyWord);
@@ -45,13 +46,12 @@ export default function Dictionary(props) {
               autoCapitalize="on"
               onChange={handleKeyWordChange}
             />
-
             <button type="submit" class="btn btn-light mb-3">
               <i className="fas fa-search"></i>
             </button>
           </form>
           <div className="hint">
-            sugested words: sunrise, dress, blue, carrier....
+            sugested words: sunrise, dress, blue, carrier, dog, nature....
           </div>
         </section>
 

@@ -4,6 +4,7 @@ import Phonetic from "./Phonetic";
 import Meaning from "./Meaning.js";
 
 import "./Results.css";
+import "./Media.css";
 
 export default function Results(props) {
   console.log(props);
@@ -11,7 +12,9 @@ export default function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2>{props.results.word}</h2>
+          <h2>
+            Results for: <strong>"{props.results.word}"</strong>
+          </h2>
 
           {props.results.phonetics.map(function (phonetic, index) {
             return (

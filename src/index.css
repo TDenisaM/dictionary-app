@@ -1,5 +1,8 @@
 body {
   margin: 0;
   font-family: PT Mono, monospace;
-  background-color: rgba(213, 188, 167, 0.7);
+
+  background-image: url(./background/bg8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

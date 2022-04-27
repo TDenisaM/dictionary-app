@@ -1,5 +1,9 @@
 .Results h2 {
   margin: 30px auto;
+}
+.Results h2 strong {
+  margin: 30px auto;
 
-  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
