@@ -11,7 +11,7 @@ export default function App() {
       <div className="cointainer">
         <header className="App-header">Online Dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyWord="curiosity" />
         </main>
         <Footer />
       </div>
