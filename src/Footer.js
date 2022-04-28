@@ -19,7 +19,7 @@ export default function Footer() {
       <span>
         (open-source on
         <a
-          href="https://github.com/TDenisaM/react-weather-app"
+          href="https://github.com/TDenisaM/dictionary-app"
           target="_blank"
           rel="noreferrer"
         >
@@ -30,7 +30,7 @@ export default function Footer() {
       <span>
         and hosted on
         <a
-          href="https://fantastic-speculoos-c5d2bc.netlify.app"
+          href="https://jazzy-pothos-61b570.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
