@@ -25,6 +25,9 @@
   body {
     background-image: url(../background/bg776.jpg);
   }
+  .App .Dictionary section {
+    padding: 40px 40px 20px;
+  }
 }
 @media (max-width: 715px) {
   .Dictionary .engine p {
@@ -51,9 +54,7 @@
     font-size: 45px;
     line-height: 40px;
   }
-  .Dictionary section {
-    margin: 50px 0;
-  }
+
   .Dictionary .engine .form .input {
     width: 70%;
     padding: 0px 25px;
