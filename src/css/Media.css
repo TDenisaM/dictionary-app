@@ -66,6 +66,12 @@
   .Dictionary .Results h2 {
     margin: 15px auto;
   }
+  .Phonetic h2 {
+    font-size: 20px;
+  }
+  .Phonetic a .listen {
+    font-size: 35px;
+  }
   .Results .Meaning .definition strong {
     font-size: 20px;
     line-height: 15px;
