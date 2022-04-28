@@ -66,4 +66,24 @@
   .Dictionary .Results h2 {
     margin: 15px auto;
   }
+  .Results .Meaning .definition strong {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .Results .Meaning .definition small {
+    font-size: 20px;
+
+    line-height: 10px;
+  }
+  .Meaning .Synonyms span,
+  .Meaning .Synonyms ul {
+    font-size: 15px;
+    line-height: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .Results .Meaning .definition strong {
+    font-size: 17px;
+    line-height: 10px;
+  }
 }

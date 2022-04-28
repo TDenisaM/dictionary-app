@@ -4,10 +4,10 @@ import "./css/Synonyms.css";
 import "./css/Media.css";
 
 export default function Synonyms(props) {
-  if (props.synonyms) {
+  if (props.synonyms && props.synonyms.length > 0) {
     return (
       <div className="Synonyms">
-        <strong>Synonym:</strong>
+        <span>Synonym:</span>
         <ul>
           {props.synonyms.map(function (synonym, index) {
             return <li key={index}>{synonym} </li>;

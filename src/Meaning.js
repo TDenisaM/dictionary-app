@@ -6,25 +6,28 @@ import "./css/Meaning.css";
 import "./css/Media.css";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
-  return (
-    <div className="mt-3 Meaning">
-      <h2>{props.meaning.partOfSpeech}</h2>
-      {props.meaning.definitions.map(function (definition, index) {
-        return (
-          <div key={index}>
-            <div>
-              <strong>Definition: </strong>
-              {definition.definition}
-              <br />
-              <strong>Exemples: </strong>
-              <em>{definition.example}</em>
-              <br />
-              <Synonyms synonyms={definition.synonyms} />
+  if (props.meaning) {
+    return (
+      <div className="mt-3 Meaning">
+        <h2>{props.meaning.partOfSpeech}</h2>
+        {props.meaning.definitions.map(function (definition, index) {
+          return (
+            <div key={index}>
+              <div className="definition">
+                <strong>{definition.definition}</strong>
+                <br />
+                <small>{definition.example}</small>
+                <div>
+                  <Synonyms synonyms={props.meaning.synonyms} />
+                </div>
+              </div>
             </div>
-          </div>
-        );
-      })}
-    </div>
-  );
+          );
+        })}
+        <Synonyms synonyms={props.meaning.synonyms} />
+      </div>
+    );
+  } else {
+    return null;
+  }
 }

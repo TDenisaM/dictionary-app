@@ -7,13 +7,12 @@ import "./css/Results.css";
 import "./css/Media.css";
 
 export default function Results(props) {
-  console.log(props);
   if (props.results) {
     return (
       <div className="Results">
         <section className="word">
           <h2>
-            Results for: <strong>"{props.results.word}"</strong>
+            <strong>{props.results.word}</strong>
           </h2>
 
           {props.results.phonetics.map(function (phonetic, index) {

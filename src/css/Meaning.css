@@ -1,1 +1,13 @@
+.Meaning .definition {
+  margin: 45px auto;
+}
+.Meaning .definition strong {
+  font-size: 25px;
+}
+.Meaning .definition small {
+  font-size: 20px;
+  font-family: PT monospace;
+  font-style: italic;
 
+  line-height: 20px;
+}
