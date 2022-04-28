@@ -12,3 +12,6 @@
 
   text-transform: capitalize;
 }
+.Results .word div {
+  padding-bottom: 5px;
+}
