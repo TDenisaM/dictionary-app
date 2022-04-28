@@ -1,7 +1,7 @@
 import React from "react";
 
-import "./Phonetic.css";
-import "./Media.css";
+import "./css/Phonetic.css";
+import "./css/Media.css";
 
 export default function Phonetic(props) {
   return (

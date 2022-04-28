@@ -3,8 +3,8 @@ import React from "react";
 import Phonetic from "./Phonetic";
 import Meaning from "./Meaning.js";
 
-import "./Results.css";
-import "./Media.css";
+import "./css/Results.css";
+import "./css/Media.css";
 
 export default function Results(props) {
   console.log(props);

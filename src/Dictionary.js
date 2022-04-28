@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import Results from "./Results.js";
-import "./Dictionary.css";
-import "./Media.css";
+import "./css/Dictionary.css";
+import "./css/Media.css";
 
 export default function Dictionary(props) {
   let [keyWord, setKeyWord] = useState(props.defaultKeyWord);

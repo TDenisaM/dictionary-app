@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
   body {
-    background-image: url(./background/bg992.jpg);
+    background-image: url(../background/bg992.jpg);
   }
 
   .App .app-container header {
@@ -23,7 +23,7 @@
 }
 @media (max-width: 776px) {
   body {
-    background-image: url(./background/bg776.jpg);
+    background-image: url(../background/bg776.jpg);
   }
 }
 @media (max-width: 715px) {
@@ -38,7 +38,7 @@
 }
 @media (max-width: 576px) {
   body {
-    background-image: url(./background/bg576.jpg);
+    background-image: url(../background/bg576.jpg);
   }
   body .App {
     padding: 20px;

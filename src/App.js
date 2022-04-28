@@ -3,8 +3,8 @@ import React from "react";
 import Dictionary from "./Dictionary";
 import Footer from "./Footer";
 
-import "./App.css";
-import "./Media.css";
+import "./css/App.css";
+import "./css/Media.css";
 
 export default function App() {
   return (

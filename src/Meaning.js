@@ -2,8 +2,8 @@ import React from "react";
 
 import Synonyms from "./Synonyms.js";
 
-import "./Meaning.css";
-import "./Media.css";
+import "./css/Meaning.css";
+import "./css/Media.css";
 
 export default function Meaning(props) {
   console.log(props.meaning);
