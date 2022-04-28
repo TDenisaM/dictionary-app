@@ -15,13 +15,17 @@ export default function Results(props) {
             <strong>{props.results.word}</strong>
           </h2>
 
-          {props.results.phonetics.map(function (phonetic, index) {
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
-          })}
+          {props.results.phonetics
+            .filter(function (phonetics) {
+              return phonetics.audio;
+            })
+            .map(function (phonetic, index) {
+              return (
+                <div key={index}>
+                  <Phonetic phonetic={phonetic} />
+                </div>
+              );
+            })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
