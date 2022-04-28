@@ -1,3 +1,12 @@
-.Phonetics .text span {
+.Phonetic {
   align-items: center;
+  line-height: 25px;
+}
+.Phonetic h2 {
+  font-weight: 600;
+
+  display: inline;
+}
+.Phonetic a {
+  color: rgb(218, 185, 21);
 }

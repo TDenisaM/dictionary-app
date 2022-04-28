@@ -12,9 +12,11 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 40px;
+  text-align: left;
 }
 .Dictionary .engine {
   background-color: rgba(189, 144, 106, 0.7);
+  text-align: center;
 }
 
 .Dictionary p {

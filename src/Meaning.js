@@ -8,8 +8,8 @@ import "./Media.css";
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
-    <div className="mt-5 Meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
+    <div className="mt-3 Meaning">
+      <h2>{props.meaning.partOfSpeech}</h2>
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>

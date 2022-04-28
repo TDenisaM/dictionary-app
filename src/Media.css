@@ -1,16 +1,8 @@
 @media (max-width: 992px) {
   body {
-    background-image: url(./background/bg2.jpg);
+    background-image: url(./background/bg992.jpg);
   }
-  .App {
-    background-image: linear-gradient(
-      to bottom,
-      rgba(150, 114, 64, 0.3),
-      rgba(142, 96, 61, 0.75)
-    );
 
-    border-radius: 0px;
-  }
   .App .app-container header {
     font-size: 50px;
     line-height: 60px;
@@ -29,25 +21,49 @@
     min-width: 100%;
   }
 }
-
+@media (max-width: 776px) {
+  body {
+    background-image: url(./background/bg776.jpg);
+  }
+}
 @media (max-width: 715px) {
   .Dictionary .engine p {
     font-size: 20px;
     line-height: 25px;
   }
+  body .App {
+    margin: 25px;
+    padding: 25px;
+  }
 }
 @media (max-width: 576px) {
+  body {
+    background-image: url(./background/bg576.jpg);
+  }
+  body .App {
+    padding: 20px;
+    margin: 0px;
+
+    border-radius: 0;
+  }
+
   .App .app-container header {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 40px;
   }
+  .Dictionary section {
+    margin: 50px 0;
+  }
   .Dictionary .engine .form .input {
-    width: 55%;
+    width: 70%;
     padding: 0px 25px;
   }
 
   .Dictionary .engine .form button {
     margin-top: 13px;
     padding: 8px 25px;
+  }
+  .Dictionary .Results h2 {
+    margin: 15px auto;
   }
 }

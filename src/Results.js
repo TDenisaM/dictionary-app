@@ -11,7 +11,7 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section>
+        <section className="word">
           <h2>
             Results for: <strong>"{props.results.word}"</strong>
           </h2>
